@@ -1,14 +1,37 @@
 PODS:
+  - PromiseKit (4.1.7):
+    - PromiseKit/Foundation (= 4.1.7)
+    - PromiseKit/QuartzCore (= 4.1.7)
+    - PromiseKit/UIKit (= 4.1.7)
+  - PromiseKit/CorePromise (4.1.7)
+  - PromiseKit/Foundation (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.7):
+    - PromiseKit/CorePromise
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - Unbox (2.4.0)
 
 DEPENDENCIES:
+  - PromiseKit (~> 4.0)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
   - SDWebImage (~> 4.0)
+  - Unbox
 
 SPEC CHECKSUMS:
+  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Unbox: c8b2ab69d3337597b4a3f47a0538807dc12db670
 
-PODFILE CHECKSUM: db43355c7debc338ceb08bea71cf0a268a2997d8
+PODFILE CHECKSUM: 93f439dcd361715864c1148c9c2fcd3bcf496136
 
 COCOAPODS: 1.2.0

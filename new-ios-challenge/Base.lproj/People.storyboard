@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0Wj-yU-pK6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Famous People-->
+        <scene sceneID="x1T-zs-iel">
+            <objects>
+                <tableViewController title="Famous People" id="0Wj-yU-pK6" customClass="PeopleViewController" customModule="new_ios_challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="131" sectionHeaderHeight="28" sectionFooterHeight="28" id="DoK-5P-4nM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PeopleCell" rowHeight="131" id="LyO-Nj-Lnb" customClass="PeopleCell" customModule="new_ios_challenge" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="131"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LyO-Nj-Lnb" id="qO4-2n-eVw">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kGM-Om-a7G">
+                                            <rect key="frame" x="8" y="20" width="105" height="102.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="105" id="VY2-G7-F0k"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="G0b-bg-ZWU">
+                                            <rect key="frame" x="121" y="58" width="246" height="34.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBM-lT-R3b">
+                                            <rect key="frame" x="121" y="100.5" width="246" height="22"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="22" id="moB-fr-bYN"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIb-bq-TRm">
+                                            <rect key="frame" x="121" y="20" width="246" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="hed-vV-qmJ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="G0b-bg-ZWU" secondAttribute="trailing" constant="8" id="1uM-D4-We3"/>
+                                        <constraint firstItem="G0b-bg-ZWU" firstAttribute="leading" secondItem="kGM-Om-a7G" secondAttribute="trailing" constant="8" id="2Vd-3x-pp1"/>
+                                        <constraint firstAttribute="trailing" secondItem="eIb-bq-TRm" secondAttribute="trailing" constant="8" id="58p-Gs-8pc"/>
+                                        <constraint firstItem="OBM-lT-R3b" firstAttribute="leading" secondItem="kGM-Om-a7G" secondAttribute="trailing" constant="8" id="5il-Ue-htT"/>
+                                        <constraint firstItem="kGM-Om-a7G" firstAttribute="top" secondItem="qO4-2n-eVw" secondAttribute="top" constant="20" id="FRD-u7-uUY"/>
+                                        <constraint firstItem="eIb-bq-TRm" firstAttribute="top" secondItem="qO4-2n-eVw" secondAttribute="top" constant="20" id="IMk-GV-agJ"/>
+                                        <constraint firstAttribute="bottom" secondItem="kGM-Om-a7G" secondAttribute="bottom" constant="8" id="OSU-nh-8ZL"/>
+                                        <constraint firstItem="eIb-bq-TRm" firstAttribute="leading" secondItem="kGM-Om-a7G" secondAttribute="trailing" constant="8" id="ZC3-bf-s6h"/>
+                                        <constraint firstItem="kGM-Om-a7G" firstAttribute="leading" secondItem="qO4-2n-eVw" secondAttribute="leading" constant="8" id="ZK4-jB-U8J"/>
+                                        <constraint firstItem="OBM-lT-R3b" firstAttribute="top" secondItem="G0b-bg-ZWU" secondAttribute="bottom" constant="8" id="ZKX-HR-KWc"/>
+                                        <constraint firstAttribute="bottom" secondItem="OBM-lT-R3b" secondAttribute="bottom" constant="8" id="ayb-CT-Ajx"/>
+                                        <constraint firstAttribute="trailing" secondItem="OBM-lT-R3b" secondAttribute="trailing" constant="8" id="byK-mB-LvM"/>
+                                        <constraint firstItem="G0b-bg-ZWU" firstAttribute="top" secondItem="eIb-bq-TRm" secondAttribute="bottom" constant="8" id="gqE-6Y-ybj"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="peopleAvatarImg" destination="kGM-Om-a7G" id="cm9-iP-gRn"/>
+                                    <outlet property="peopleBirthdayLbl" destination="OBM-lT-R3b" id="AMC-uG-R5m"/>
+                                    <outlet property="peopleIDLbl" destination="G0b-bg-ZWU" id="JMV-gI-t0F"/>
+                                    <outlet property="peopleNameLbl" destination="eIb-bq-TRm" id="KiA-pH-lyJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0Wj-yU-pK6" id="KHm-V2-Ttf"/>
+                            <outlet property="delegate" destination="0Wj-yU-pK6" id="Wpi-HR-Dmh"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38E-n3-zrM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461.60000000000002" y="49.925037481259373"/>
+        </scene>
+    </scenes>
+</document>
