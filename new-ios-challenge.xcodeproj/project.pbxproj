@@ -12,7 +12,7 @@
 		BD327E641E6F3B09005C397A /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E631E6F3B09005C397A /* FileService.swift */; };
 		BD327E661E6F3B7D005C397A /* PeopleCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E651E6F3B7D005C397A /* PeopleCellViewModel.swift */; };
 		BD327E681E6F40FF005C397A /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E671E6F40FF005C397A /* People.swift */; };
-		BD327E6B1E6F53C0005C397A /* Date+new-ios-challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E6A1E6F53C0005C397A /* Date+new-ios-challenge.swift */; };
+		BD327E6B1E6F53C0005C397A /* Date+Swiftie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E6A1E6F53C0005C397A /* Date+Swiftie.swift */; };
 		BD327E6D1E6F561A005C397A /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E6C1E6F561A005C397A /* PeopleViewController.swift */; };
 		BD327E6F1E6F5636005C397A /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E6E1E6F5636005C397A /* PeopleCell.swift */; };
 		BD327E751E70B401005C397A /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD327E741E70B401005C397A /* PeopleViewModel.swift */; };
@@ -30,7 +30,7 @@
 		BD327E631E6F3B09005C397A /* FileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
 		BD327E651E6F3B7D005C397A /* PeopleCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleCellViewModel.swift; path = ../Models/PeopleCellViewModel.swift; sourceTree = "<group>"; };
 		BD327E671E6F40FF005C397A /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
-		BD327E6A1E6F53C0005C397A /* Date+new-ios-challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+new-ios-challenge.swift"; sourceTree = "<group>"; };
+		BD327E6A1E6F53C0005C397A /* Date+Swiftie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Swiftie.swift"; sourceTree = "<group>"; };
 		BD327E6C1E6F561A005C397A /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		BD327E6E1E6F5636005C397A /* PeopleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
 		BD327E741E70B401005C397A /* PeopleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeopleViewModel.swift; path = ../Features/PeopleViewModel.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		BD327E691E6F53C0005C397A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BD327E6A1E6F53C0005C397A /* Date+new-ios-challenge.swift */,
+				BD327E6A1E6F53C0005C397A /* Date+Swiftie.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD327E6B1E6F53C0005C397A /* Date+new-ios-challenge.swift in Sources */,
+				BD327E6B1E6F53C0005C397A /* Date+Swiftie.swift in Sources */,
 				BD327E751E70B401005C397A /* PeopleViewModel.swift in Sources */,
 				BD327E681E6F40FF005C397A /* People.swift in Sources */,
 				BD327E6F1E6F5636005C397A /* PeopleCell.swift in Sources */,
