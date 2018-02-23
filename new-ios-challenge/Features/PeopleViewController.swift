@@ -19,6 +19,7 @@ class PeopleViewController: UITableViewController {
 
 // MARK - TableView Data Source
 extension PeopleViewController {
+  
   override public func tableView(_ tableView: UITableView,
                                  numberOfRowsInSection section: Int) -> Int {
     return viewModel.people.value.count

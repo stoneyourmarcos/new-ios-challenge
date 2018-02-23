@@ -10,6 +10,7 @@ class PeopleCell: UITableViewCell {
 }
 
 extension PeopleCell {
+  
   func configure(withViewModel viewModel: PeopleCellViewModel) {
     peopleNameLbl.text = viewModel.name
     peopleIDLbl.text = viewModel.id
